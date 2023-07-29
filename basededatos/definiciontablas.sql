@@ -13,3 +13,7 @@ create table cuentas(
     cuenta varchar,
     foreign key (idcliente) references clientes (idcliente)
 );
+
+insert into clientes(paterno) values
+('Vincenty'),
+('Funes');
